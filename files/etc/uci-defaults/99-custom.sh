@@ -134,10 +134,16 @@ uci delete ttyd.@ttyd[0].interface
 uci set dropbear.@dropbear[0].Interface=''
 uci commit
 
-# 设置编译作者信息
-FILE_PATH="/etc/openwrt_release"
-NEW_DESCRIPTION="Packaged by wukongdaily"
+
+# 设置编译作者信息20251201
+FILE_PATH="/etc/openwrt_release" 
+NEW_DESCRIPTION="by Turbo" 
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
+
+# 设置系统主机名20251201 
+HOST_PATH="/etc/config/system" 
+NEW_HOSTNAME="TurboWRT" 
+sed -i "s/option hostname .*/option hostname '$NEW_HOSTNAME'/" "$HOST_PATH"
 
 # 若luci-app-advancedplus (进阶设置)已安装 则去除zsh的调用 防止命令行报 /usb/bin/zsh: not found的提示
 if [ -f /usr/lib/lua/luci/controller/advancedplus.lua ]; then

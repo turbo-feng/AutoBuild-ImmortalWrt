@@ -1,4 +1,4 @@
-使用编辑模式修改
+##复制必须进入编辑模式修改
 
 ---------- files/etc/uci-defaults/99-custom.sh 
 137-145 

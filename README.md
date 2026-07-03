@@ -43,9 +43,9 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 #会多出NAS管理菜单
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn" 
+#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn" 
 #静态文件服务器dufs(推荐) 配合samba实现远程轻nas管理
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn" 
+#PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn" 
 #ram释放
 PACKAGES="$PACKAGES luci-app-ramfree" PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn" 
 #CF隧道 

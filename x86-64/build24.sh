@@ -93,9 +93,13 @@ PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 PACKAGES="$PACKAGES luci-app-vlmcsd" 
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 
-############# 核心包,仓库自带，PVE必装 ###################### 
+############# 核心包、常用包,仓库自带，PVE必装 ###################### 
 PACKAGES="$PACKAGES kmod-mlx5-core" 
 PACKAGES="$PACKAGES qemu-ga"
+PACKAGES="$PACKAGES tree" 
+PACKAGES="$PACKAGES wget-nossl" 
+PACKAGES="$PACKAGES wget-ssl"
+PACKAGES="$PACKAGES dos2unix" 
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件

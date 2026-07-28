@@ -75,7 +75,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
 #网络测速 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-zh-cn"
-#皎月连
+#皎月连 20260728目前无法联网和更新
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-natpierce"
 
 #===========================以下imm仓库内的软件==============================↓

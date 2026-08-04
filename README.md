@@ -39,8 +39,6 @@ PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-openclash"
-#clash防火墙依赖
-PACKAGES="$PACKAGES kmod-nft-tproxy"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
@@ -70,6 +68,13 @@ PACKAGES="$PACKAGES luci-app-vlmcsd" PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 ############# 核心包,仓库自带，PVE必装 ###################### 
 PACKAGES="$PACKAGES kmod-mlx5-core" 
 PACKAGES="$PACKAGES qemu-ga"
+PACKAGES="$PACKAGES tree" 
+PACKAGES="$PACKAGES wget-ssl"
+PACKAGES="$PACKAGES dos2unix" 
+#clash防火墙依赖
+PACKAGES="$PACKAGES kmod-nft-tproxy"
+
+
 
 ======== shell/custom-packages.sh =======
 合并imm仓库以外的第三方插件

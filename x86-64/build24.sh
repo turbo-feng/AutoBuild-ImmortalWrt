@@ -97,9 +97,10 @@ PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 PACKAGES="$PACKAGES kmod-mlx5-core" 
 PACKAGES="$PACKAGES qemu-ga"
 PACKAGES="$PACKAGES tree" 
-PACKAGES="$PACKAGES wget-nossl" 
 PACKAGES="$PACKAGES wget-ssl"
 PACKAGES="$PACKAGES dos2unix" 
+#clash防火墙依赖
+PACKAGES="$PACKAGES kmod-nft-tproxy"
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
